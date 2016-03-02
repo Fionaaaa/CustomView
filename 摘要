@@ -1,0 +1,11 @@
+主要：
+	用户自定义视图
+	传感器
+	图形编程
+相关：
+	Canvas
+	Paint
+	SensorManager
+	SensorEventListener
+	Handler
+

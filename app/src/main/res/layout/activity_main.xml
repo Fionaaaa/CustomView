@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:nui="http://com.newer.com.android.ui"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.fiona.customview.MainActivity">
+
+    <com.example.fiona.customview.CustomView
+    android:id="@+id/view"
+    android:layout_width="300dp"
+    android:layout_height="300dp"
+    android:layout_centerVertical="true"
+    android:layout_centerHorizontal="true" />
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="12"
+    android:id="@+id/textView_12"
+    android:layout_alignTop="@+id/view"
+    android:layout_centerHorizontal="true" />
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="3"
+    android:id="@+id/textView2"
+    android:layout_centerVertical="true"
+    android:layout_alignRight="@+id/view"
+    android:layout_alignEnd="@+id/view" />
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="6"
+    android:id="@+id/textView_6"
+    android:layout_alignBottom="@+id/view"
+    android:layout_centerHorizontal="true" />
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="9"
+    android:id="@+id/textView_9"
+    android:layout_alignBottom="@+id/textView2"
+    android:layout_alignLeft="@+id/view"
+    android:layout_alignStart="@+id/view" />
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="4"
+    android:id="@+id/textView_4"
+    android:layout_marginRight="16dp"
+    android:layout_marginEnd="16dp"
+    android:layout_marginBottom="34dp"
+    android:layout_above="@+id/textView_5"
+    android:layout_toLeftOf="@+id/textView2"
+    android:layout_toStartOf="@+id/textView2" />
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="5"
+    android:id="@+id/textView_5"
+    android:layout_above="@+id/textView_6"
+    android:layout_toLeftOf="@+id/textView_4"
+    android:layout_toStartOf="@+id/textView_4"
+    android:layout_marginRight="43dp"
+    android:layout_marginEnd="43dp" />
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="2"
+    android:id="@+id/textView_2"
+    android:layout_marginTop="51dp"
+    android:layout_below="@+id/textView_12"
+    android:layout_toRightOf="@+id/textView_5"
+    android:layout_toEndOf="@+id/textView_5" />
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="1"
+    android:id="@+id/textView_1"
+    android:layout_below="@+id/textView_12"
+    android:layout_alignLeft="@+id/textView_5"
+    android:layout_alignStart="@+id/textView_5" />
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="11"
+    android:id="@+id/textView3"
+    android:layout_marginRight="47dp"
+    android:layout_marginEnd="47dp"
+    android:layout_alignBaseline="@+id/textView_1"
+    android:layout_alignBottom="@+id/textView_1"
+    android:layout_toLeftOf="@+id/textView_12"
+    android:layout_toStartOf="@+id/textView_12" />
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="10"
+    android:id="@+id/textView4"
+    android:layout_marginLeft="17dp"
+    android:layout_marginStart="17dp"
+    android:layout_alignTop="@+id/textView_2"
+    android:layout_toRightOf="@+id/textView_9"
+    android:layout_toEndOf="@+id/textView_9" />
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="8"
+    android:id="@+id/textView_8"
+    android:layout_alignTop="@+id/textView_4"
+    android:layout_alignLeft="@+id/textView4"
+    android:layout_alignStart="@+id/textView4" />
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="7"
+    android:id="@+id/textView_7"
+    android:layout_above="@+id/textView_6"
+    android:layout_alignLeft="@+id/textView3"
+    android:layout_alignStart="@+id/textView3" />
+    <!--<com.example.fiona.customview.PieView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/view"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:inputType="number"
+        android:layout_marginBottom="27dp"
+        android:layout_toLeftOf="@+id/button"
+        android:layout_toStartOf="@+id/button" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="绘制"
+        android:id="@+id/button"
+        android:layout_alignBottom="@+id/editText"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="draw"/>-->
+</RelativeLayout>
